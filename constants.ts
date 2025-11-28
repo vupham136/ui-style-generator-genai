@@ -1,0 +1,81 @@
+import { UIStyle } from './types';
+
+export const UI_STYLES: UIStyle[] = [
+  {
+    id: 'minimalism',
+    category: 'Minimalism & Swiss Style',
+    keywords: 'Clean, simple, spacious, functional, white space, high contrast, geometric, sans-serif, grid-based, essential',
+    colors: 'Monochromatic, Black & White, Neutral Palette (Beige, Grey), Primary accents',
+    effects: 'Subtle hover, smooth transitions, sharp shadows, clear type hierarchy, fast loading',
+  },
+  {
+    id: 'neumorphism',
+    category: 'Neumorphism',
+    keywords: 'Soft UI, embossed, debossed, convex/concave, light source, subtle depth, rounded, monochromatic',
+    colors: 'Light pastels, soft gradients, low contrast, single dominant color',
+    effects: 'Soft multi-layer shadows, smooth press animation, inner shadow, no hard lines',
+  },
+  {
+    id: 'glassmorphism',
+    category: 'Glassmorphism',
+    keywords: 'Frosted glass, transparent, blurred, layered, vibrant background, depth',
+    colors: 'Translucent colors, vibrant blues/purples/pinks, white/light text',
+    effects: 'Background blur, subtle borders, light reflections, layered Z-index',
+  },
+  {
+    id: 'brutalism',
+    category: 'Brutalism',
+    keywords: 'Raw, unpolished, stark, high contrast, default fonts, visible borders, unstyled links, asymmetric',
+    colors: 'Primary colors, Black & White, neon accents, limited palette',
+    effects: 'No transitions, sharp corners, bold type, visible grid, large blocks, broken look',
+  },
+  {
+    id: '3d-hyperrealism',
+    category: '3D & Hyperrealism',
+    keywords: 'Depth, realistic textures, 3D models, spatial, tactile, skeuomorphic, detailed',
+    colors: 'Rich/deep colors, metallic, glossy, matte, complex gradients',
+    effects: 'Interactive 3D, complex shadows, realistic lighting, physics motion, parallax',
+  },
+  {
+    id: 'vibrant-block',
+    category: 'Vibrant & Block-based',
+    keywords: 'Bold, energetic, playful, block layout, geometric, high contrast, duotone',
+    colors: 'Complementary, triadic, vibrant contrasts, bright pastels',
+    effects: 'Large sections, animated patterns, bold hover, scroll-snap, big typography',
+  },
+  {
+    id: 'dark-mode',
+    category: 'Dark Mode (OLED Optimized)',
+    keywords: 'Dark theme, low-light, deep black, high contrast, OLED friendly',
+    colors: 'Deep black (#000), dark grey (#121212), neon accents',
+    effects: 'Minimal glow, smooth theme transitions, reduced white light, readable type',
+  },
+  {
+    id: 'accessible',
+    category: 'Accessible & Ethical',
+    keywords: 'High contrast, large text, keyboard nav, screen reader, WCAG, focus state',
+    colors: 'WCAG AA/AAA palettes, high contrast, simple colors',
+    effects: 'Clear focus rings, ARIA, skip links, responsive, reduced motion',
+  },
+  {
+    id: 'claymorphism',
+    category: 'Claymorphism',
+    keywords: 'Soft 3D, chunky, playful, toy-like, bubbly, thick borders, double shadows',
+    colors: 'Pastels, soft gradients, light backgrounds',
+    effects: 'Inner/outer shadows, soft press animation, fluffy elements',
+  },
+  {
+    id: 'aurora',
+    category: 'Aurora UI',
+    keywords: 'Vibrant gradients, Northern Lights, mesh, luminous, atmospheric',
+    colors: 'Vibrant blue/purple/pink/teal, smooth gradients',
+    effects: 'Flowing animated gradients, depth via color layers',
+  },
+  {
+    id: 'retro-futurism',
+    category: 'Retro-Futurism',
+    keywords: '80s sci-fi, neon glow, geometric, CRT lines, pixel art, cyberpunk, vaporwave',
+    colors: 'Neon (Hot Pink, Cyan, Electric Blue), deep black, metallic accents',
+    effects: 'CRT scanlines, neon glow, glitch, animated geometric patterns, monospace fonts',
+  },
+];
